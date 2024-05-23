@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formMz {
+    max-width: 900px;
+    width: 100%;
+}
+
+#InputMz {
+    width: 100%;
+
+}
+
+
+.form-inline {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* card container */
+
+
+.cardMz{
+    border: 1px solid black;
+    height: 30vh;
+    max-width: 800px;
+    width: 100%;
+    margin:10px auto;
+    display: flex;
+    border-radius: 6px;
+    gap: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.283);
+}
+
+
+.imgCon{
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:2px solid rgba(0, 0, 0, 0.516);
+}
+
+
+.imgCon img{
+    width: 70%;
+    height: 20vh;
+    align-items: center;
+}
+
+
+.cardBodyMz{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.cardBodyMz h2{
+    font-size: 18px;
+    }
+    
+    .cardBodyMz h3{
+        font-size: 15px;
+        }
+
+
+
+
+#btnMz{
+    text-align: end;
+    align-self: flex-end;
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .cardMz{
+        height: 32vh;
+    }
+
+    .cardBodyMz{   
+     gap: 0;
+     padding: 0;
+    }
+
+
+    #btnMz{
+       
+       margin-bottom: 20px;
+       margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    
+  .cardMz{
+    height: 65vh;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+  }  
+
+  .imgCon{
+     max-width: 1000px;
+     width: 100%;
+     border: none;
+     justify-content: center;
+    
+}
+
+.imgCon img{
+   border-radius: 6px 6px 0 0;
+    width: 80%;
+    height: 20vh;
+    align-items: center;
+    height: 25vh;
+    margin-bottom: 20px;
+}
+
+
+.cardBodyMz h2{
+font-size: 20px;
+}
+
+.cardBodyMz h3{
+    font-size: 15px;
+    }
+
+
+#formMz{
+    display: flex;
+    gap: 5px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:321px){
+.cardMz{
+    height:68vh;
+}
+}
